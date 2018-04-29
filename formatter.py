@@ -5,10 +5,8 @@ import re
 from html.parser import HTMLParser
 from os import linesep
 from bs4 import BeautifulSoup
-import pudb
 import pandas as pd
 import subprocess
-pudb.set_trace()
 
 URL = 'https://www.sec.gov/Archives/edgar/data/1405073/0001193125-17-030376.txt'
 ARCHIVE = 'https://www.sec.gov/Archives/'
